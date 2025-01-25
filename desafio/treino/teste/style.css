@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #8eacac;
+    
+}
+header{
+    background-color: #183333;
+    height: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+nav{
+    padding: 15px;
+    text-align: center;
+}
+
+nav a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+}
+img{
+    padding-top: 20px;
+    margin: auto;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    text-align: right;
+}
+.principal{
+    font-family: "Pacifico", serif;
+    font-size: 20px;
+    text-align: right;
+} 
+article h3{
+    text-align: justify;
+    padding: 50px;
+    width: 650px;
+    
+}

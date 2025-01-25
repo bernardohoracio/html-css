@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            margin: 0px; 
+        }
+        h1{
+            text-align: center;
+            font-size: 2em;
+        }
+        
+        nav > a{
+            color: rgb(175, 135, 24);
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            background-color: rgb(114, 89, 22);
+            border-radius: 5px;
+            padding-right: 10px;
+            box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.473);
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: rgb(0, 0, 0);
+        }
+        header{
+            
+            background-color: goldenrod;
+            padding: auto;
+            margin: 0px; 
+            border-width: 20px;
+            border-color: goldenrod;
+            border-style: solid;
+        }
+        
+        section > p{
+            background-color: rgba(168, 81, 18, 0.767);
+            padding: 10px;
+            margin: 10px;
+        }
+        article > aside{
+            background-color: rgba(82, 47, 23, 0.808);
+            color: rgb(212, 128, 31);
+        }
+        article > h1{
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        
+        main{
+            background-color: chocolate;
+            margin: 10px;
+            padding:10px;
+            border-radius: 5px;
+
+        }
+        footer{
+            background-color: chocolate;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+<body>
+    
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            
+            <p>Futebol, Basquete, Volei e Esportes no Geral</p>
+        </section>
+        <section>
+            <article>
+                <h1>Noticias fds</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quibusdam asperiores voluptate vel iste ipsum fugit rem nobis laudantium, eligendi tempora voluptatibus nihil hic expedita voluptatem distinctio sint quaerat pariatur.</p>
+                <aside>
+                    <p>atigo do mano la</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <P>Desenvolvido pelo CursoEmVideo</P>
+    </footer>
+
+     
+</body>
+</html>

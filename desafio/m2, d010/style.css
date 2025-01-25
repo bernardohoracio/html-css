@@ -1,0 +1,207 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+:root{
+    --cor01:white;
+    --cor1:#badbcc;
+    --cor2:#26A748;
+    --cor3:#37c27a7c;
+    --cor4:#8cb19e77;
+    --cor5:#35ce70;
+    --cor6:#4b9171;
+    --cor7:rgb(122, 180, 117);
+    --cor8:#a2c7b6;
+    --cor9:#4b9171;
+    --cor10:#273830;
+    --cor11:#308157;
+    --cor12:#23AC65;
+
+    --fontett: "Bebas Neue", serif;
+    --fonteP:"Roboto Flex", serif;
+    --fonteS:'android';
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.robo{
+    font-family: var(--fonteS);
+    color: var(--cor2); 
+}
+.robozinho{
+    font-family: var(--fonteS);
+    color: var(--cor2);
+    background-image: linear-gradient(to right,  var(--cor3), transparent);
+    text-align: justify;
+    text-indent: 8px;
+    font-size: 1.4em;
+    
+}
+body{
+    
+    background-color:var(--cor1);
+    text-align: center;
+    font-family: var(--fonteP);
+}
+header{
+    
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor6));
+    color: var(--cor01);
+    text-align: center;
+    
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+    margin-bottom: 1.5px;
+}
+header > h1{
+    font-family: var(--fontett);
+    font-size: 50px;
+    padding: 30px;
+
+}
+nav {
+    text-align: left;
+    padding: 25px;
+    
+    
+}
+nav > a{
+    text-decoration: none;
+    padding: 15px;
+    color: var(--cor1);
+    font-weight: bolder;
+    transition-duration: 0.8s;
+}
+/*
+um padding em cada um dos nav, para dar um efeito de estar aumentando
+*/
+nav > a:hover{
+    background-color: var(--cor8);
+    border-radius: 4px;
+    padding: 10px;
+    
+    text-decoration: none;
+}
+main p{
+    text-indent: 20px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+main{
+    background-color: var(--cor01);
+    
+    
+
+    
+
+    /*
+    para melhorolar a reponsividade do site, oque me salvou
+    */
+    min-width: 320px;
+    max-width: 800px;
+
+
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+}
+a[target="_blank"]::after {
+    content:  '\00a0\1f517'
+}
+footer a[target="_blank"]::after {
+   content: none;
+}
+article{
+    padding: 10px;
+}
+
+article > h1, p{
+    text-align: justify;
+    padding: 10px;
+    
+}
+aside{
+    background-color: var(--cor8);
+    border-radius: 6px;
+    text-align: justify;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+    
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\1F5F8\00a0';
+}
+aside h3{
+    background-color: var(--cor11);
+    color: white;
+    margin: -10px -10px 0px -10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px;
+}
+
+
+li{
+    text-align: justify;
+}
+div{
+    background-color: #308157;
+   
+    padding: 10px;
+    
+}
+div > iframe{
+    width: 90%;
+    top: 5%;
+    left: 5%;
+}
+   
+
+img{
+
+    /*
+    para a imagem q tava muito grande por causa wdith 100% alguns comandos atras
+    */
+    min-width: 10%;
+    max-width: 100%; 
+    
+}
+abbr{
+    text-decoration: underline;
+}
+strong{
+    color: var(--cor12);
+    font-weight: bolder;
+    padding: 0px 5px;
+}
+main a{
+    color: rgb(8, 75, 8);
+    text-decoration: none;
+    padding: 0px 5px;
+    background-color: rgba(144, 238, 144, 0.877);
+}
+ a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: var(--cor10);
+    color: var(--cor01);
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    color: var(--cor5);
+    text-decoration: none;
+}

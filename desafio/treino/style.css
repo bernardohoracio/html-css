@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+div{
+    background-color: darkseagreen;
+    border-radius: 100%;
+    width: 400px;
+    height: 440px;
+    margin: auto;
+    
+}
+section{
+    background-color: black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 109px;
+    margin-left: 62px;
+    margin-bottom: 100px;
+}
+article{
+    background-color: black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: -19px;
+    margin-left: 162px;
+    margin-bottom: 100px;
+}
