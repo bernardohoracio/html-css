@@ -12,6 +12,7 @@
         table{
             border-collapse: collapse;
             width: 600px;
+            position: relative;
         }
 
         td, th{
@@ -22,6 +23,13 @@
         thead , tfoot{
             background-color: rgb(0, 0, 0);
             color: white;
+        
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(0, 0, 0);
         }
 
         .num{
@@ -197,6 +205,7 @@
                 <td class="num"><strong>212.583.750</strong></td>
             </tr>
         </tfoot>
+       
     </table>
 </body>
 </html>
