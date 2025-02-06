@@ -8,26 +8,36 @@
         body{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
+
         table{
             border-collapse: collapse;
             width: 600px;
         }
+
         td, th{
             border: 1px solid black;
+          
             padding: 10px;
         }
         thead , tfoot{
-            background-color: gray;
+            background-color: rgb(0, 0, 0);
             color: white;
         }
+
         .num{
             text-align: right;
         }
+
         caption{
             font-size: 1.5em;
             padding: 10px;
             background-color: lightgray;
         }
+
+        tbody > tr:nth-child(2n-1){
+            background-color: rgb(154, 154, 154);
+        }
+
     </style>
 </head>
 <body>
