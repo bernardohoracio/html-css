@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de tabela completa</title>
+    <style>
+         table{
+            border-collapse: collapse;
+            position: relative;;
+         }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        th{
+            background-color: lightgray;
+        }
+        caption{
+            font-size: 1.5em;
+            background-color: darkgray;
+        }
+        thead{
+            position: sticky;
+            top: 0px;
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption><strong>Filmes e series favoritos</strong></caption>
+        <thead>
+            
+            <tr>
+                <th>Grupo</th>
+                <th>Nomes</th>
+                <th  colspan="3">Filmes</th>
+            </tr>
+        </thead>  
+
+            <tbody>
+                <tr>
+                    <th rowspan="3">Mulheres</th>
+                    <td>Keila Horacio</td>
+                    <td>Avengers</td>
+                    <td>Rapunzel</td>
+                    <td>Vis a Vis</td>
+                </tr>
+
+                <tr>
+                    <td>Layryane Martins</td>
+                    <td>Barbie</td>
+                    <td>Ponei</td>
+                    <td>Twd</td>
+                </tr>
+
+                <tr>
+                    <td>Liz Horacio</td>
+                    <td>Dora</td>
+                    <td>Pepa</td>
+                    <td>Marcha</td>
+                </tr>
+
+                <tr>
+                    <th rowspan="3">Homens</th>
+                    <td>Bernardo Horacio</td>
+                    <td>Big hero</td>
+                    <td>Ptga</td>
+                    <td>Your name</td>
+                </tr>
+
+                <tr>
+                    
+                    <td>Paulo henrique</td>
+                    <td>Motoqueiro fantasma</td>
+                    <td>homem aranha</td>
+                    <td>bleach</td>
+                </tr>
+
+                <tr>
+                    
+                    <td>Leonardo</td>
+                    <td>demon slayer</td>
+                    <td>one piece</td>
+                    <td>Naruto</td>
+                </tr>
+                
+            </tbody>
+    </table>
+</body>
+</html>
