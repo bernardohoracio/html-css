@@ -8,7 +8,7 @@
 }
 body {
     position: relative;
-    height: 100vh;
+    
 }
 header {
     background-color: rgb(213, 213, 213);
@@ -41,6 +41,7 @@ article{
 article > h1{
     color: gray;
 text-align: center;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.211);
 }
 article p{
     padding: 20px;
@@ -50,14 +51,45 @@ article p{
 }
 .visualg{
     background-image: url('iamgems/imagens/visualg-pagina-inicial.webp');
-    height:  100vh;
+    height: 50vh;
+    
     background-attachment: fixed;
     background-size: cover;
    margin: 0px;
    box-shadow: inset 2px  3px 14px rgba(0, 0, 0, 0.357);
 }
-.video {
-    background-color: darkgray;
+
+.myF {
+    background-image: url("iamgems/imagens/Imagem\ do\ WhatsApp\ de\ 2025-02-12\ à\(s\)\ 21.15.14_daa74be8.jpg");
+    background-image: url('iamgems/imagens/Imagem\ do\ WhatsApp\ de\ 2025-02-11\ à\(s\)\ 17.19.47_c8e4cd8e.jpg');
+    background-attachment: fixed;
+    background-position: left center;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 97vh;
+    
+    background-size: contain;
+    
+    border-radius: 10px;
+    box-shadow: inset 2px  3px 14px rgba(0, 0, 0, 0.357);
+    margin: 5px;
+    
 }
+div > h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.211);
+}
+.container{
+    display: flex;
+    align-items: top;
+    background-color: rgba(92, 149, 240, 0.757);
+    width: 100%;
+    margin: 0px;
+    height: 97vh;
+}
+
+
+
 
 
