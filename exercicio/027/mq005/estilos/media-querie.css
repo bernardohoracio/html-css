@@ -13,7 +13,15 @@ Grandes telas: acima de 1200px
     main { 
         width: 768px;
     }
-    li {
+    
+    menu > ul > li {
         display: inline-block;
+    }
+
+    span#burguer {
+        display: none;
+    }
+    menu {
+        display: block;
     }
 }
