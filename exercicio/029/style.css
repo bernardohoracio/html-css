@@ -10,24 +10,69 @@
 }
 
 .caixa1{
+    /*
+
+    sem simplicação dos end e start
+
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 5;
+    */
+
+    /*
+
+    com simplificação 
+
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 4;
+    */
+
+    grid-area: 1 / 1 / 2 / 5;
     background-color: red;
 }
 .caixa2{
+    /*
+
+    sem simplicação dos end e start
+
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 3;
+    */
+
+    /*
+
+    com simplificação 
+
+    grid-row:2 / span 2;
+    grid-column: 1 / span 2;
+    */
+
+    grid-area: 2 / 1 / 4 / 3;
     background-color: yellow;
 }
 
 .caixa3 {
+    /*
+
+    sem simplicação dos end e start
+
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 3;
     grid-column-end: 5;
+    */
+
+    /*
+
+    com simplificação 
+
+    grid-row: 2 / span 2;
+    grid-column: 3 / span 2;
+    */
+
+    grid-area:2 / 3 / 4 / 5 ;
     background-color: green;
 }
